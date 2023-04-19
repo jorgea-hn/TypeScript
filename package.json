@@ -10,6 +10,9 @@
     "start:clases": "tsc basics/clases.ts --outdir dist/ && node dist/clases.js",
     "start:customTypes": "tsc basics/customTypes.ts --outdir dist/ && node dist/customTypes.js",
     "start:functions": "tsc basics/functions.ts --outdir dist/ && node dist/functions.js",
+
+    "start:namespaces": "tsc advanced/namespaces/namespaces.ts --outFile dist/namespaces.js && node dist/namespaces.js",
+    "start:namespacess": "tsc advanced/namespaces/namespaces.ts advanced/namespaces/index.ts --outFile dist/namespacess.js && node dist/namespacess.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
